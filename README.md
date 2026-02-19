@@ -19,6 +19,9 @@ Triage unsaved Notepad++ tabs. Reads backup files, cross-references against exis
 
 ## Install
 
+Add the marketplace, then browse and install:
+
 ```
-/plugin install Benny-Lewis/personal-tools
+/plugin marketplace add Benny-Lewis/Benny-Lewis-plugins
+/plugin
 ```
