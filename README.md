@@ -17,6 +17,20 @@ Triage unsaved Notepad++ tabs. Reads backup files, cross-references against exis
 - Proposes save locations using existing directory structure
 - Waits for approval before saving anything
 
+### file
+
+Open a file's containing folder in the system file manager with the file selected.
+
+```
+/file package.json
+/file the main config
+/file src/components/Header.tsx
+/file
+```
+
+- Resolves filenames, paths, natural language descriptions, or infers from context
+- Cross-platform: Windows Explorer, macOS Finder, Linux xdg-open
+
 ## Install
 
 Add the marketplace (one-time), then install:
