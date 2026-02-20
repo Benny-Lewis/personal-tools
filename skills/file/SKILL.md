@@ -44,4 +44,6 @@ xdg-open "$(dirname "<absolute-path>")"
 
 Use the platform value from your environment context. Convert to absolute path before running the command. On Windows/MINGW, use `cygpath -w` to convert to Windows-native paths for explorer.exe.
 
+Note: `explorer.exe` returns exit code 1 even on success — ignore this error code.
+
 After opening, confirm what you opened: "Opened `<folder>` with `<file>` selected."
